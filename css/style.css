@@ -1,0 +1,13 @@
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 5px;
+    background: bisque;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background: pink;
+    }
+  }
